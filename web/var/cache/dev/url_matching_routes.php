@@ -14,6 +14,10 @@ return [
         '/_profiler/phpinfo' => [[['_route' => '_profiler_phpinfo', '_controller' => 'web_profiler.controller.profiler::phpinfoAction'], null, null, null, false, false, null]],
         '/_profiler/xdebug' => [[['_route' => '_profiler_xdebug', '_controller' => 'web_profiler.controller.profiler::xdebugAction'], null, null, null, false, false, null]],
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
+        '/default' => [[['_route' => 'default', '_controller' => 'App\\Controller\\BartaController::default'], null, null, null, false, false, null]],
+        '/edit' => [[['_route' => 'edit', '_controller' => 'App\\Controller\\BartaController::edit'], null, null, null, false, false, null]],
+        '/add' => [[['_route' => 'add', '_controller' => 'App\\Controller\\BartaController::add'], null, null, null, false, false, null]],
+        '/detail' => [[['_route' => 'detail', '_controller' => 'App\\Controller\\BartaController::detail'], null, null, null, false, false, null]],
         '/' => [[['_route' => 'homepage_default', '_controller' => 'App\\Controller\\HomepageController::default'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
